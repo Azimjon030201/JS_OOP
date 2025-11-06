@@ -1,30 +1,10 @@
-var userOne = {
-    name: "hello1",
-    email: "hello1@gmail.com",
-    login(){
-        console.log(this.email, "has logged in");
-    },
-    logout(){
-        console.log(this.email, "has logged out");
+class User {
+    constructor(name, email){
+        this.name = name;
+        this.email = email
     }
 }
-var userTwo = {
-    name: "hello2",
-    email: "hello2@gmail.com",
-    login(){
-        console.log(this.email, "has logged in");
-    },
-    logout(){
-        console.log(this.email, "has logged out");
-    }
-}
-var userThree = {
-    name: "hello3",
-    email: "hello3@gmail.com",
-    login(){
-        console.log(this.email, "has logged in");
-    },
-    logout(){
-        console.log(this.email, "has logged out");
-    }
-}
+var userOne = new User("Azimjon", "hazard030201@gmail.com")
+var userTwo = new User("Hello2", "hello2@gmail.com")
+
+console.log(userOne);
