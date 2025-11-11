@@ -12,10 +12,7 @@ This challenge is an English twist on the Japanese word game **Shiritori**. The 
 ["motive", "beach"] // invalid! - beach should start with "e"
 
 ["hive", "eh", "hive"] // invalid! - "hive" has already been said
----
-
-
-```markdown
+```
 ## 🛠️ Shiritori Class Creation
 
 Write a **`Shiritori`** class that has two **instance properties**:
@@ -65,11 +62,7 @@ my_shiritori.play("hostess") ➞ ["hostess"]
 my_shiritori.play("stash") ➞ ["hostess", "stash"]
 my_shiritori.play("hostess") ➞ "game over"
 // Words cannot have already been said.
----
-
-### 5-Qism: Izohlar (Notes)
-
-```markdown
+```
 ## 📌 Notes
 
 * The `play` method should not add an invalid word to the `words` array.

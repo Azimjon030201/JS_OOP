@@ -18,13 +18,17 @@ Given a class for a **`BasicPlan`**, write the classes for **`StandardPlan`** an
 
 ## 💡 Examples
 
-```javascript
-BasicPlan.hasSD ➞ true 
+| Input Code | Expected Output |
+| :--- | :--- |
+| `BasicPlan.hasSD` | ➞ `true` |
+| `PremiumPlan.hasSD` | ➞ `true` |
+| `BasicPlan.hasUHD` | ➞ `false` |
+| `BasicPlan.price` | ➞ `'$8.99'` |
+| `PremiumPlan.numOfDevices` | ➞ `4` |
 
-PremiumPlan.hasSD ➞ true
+---
 
-BasicPlan.hasUHD ➞ false
+## 📌 Notes
 
-BasicPlan.price ➞ '$8.99'
-
-PremiumPlan.numOfDevices ➞ 4
+* Try to **`extend`** the classes to complete the challenge!
+* If you're unsure what that means, try checking out the JavaScript class tutorials in the **Resources** tab.
