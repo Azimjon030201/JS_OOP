@@ -1,37 +1,42 @@
 # 📚 Book Shelf
 
-## 🎯 Vazifa
-`Book` nomli **constructor function** yarating. U ikkita property va ikkita methodga ega bo‘lsin.
+## Description
+Create a **Book constructor** that has two properties:
 
-### 🧩 Property-lar:
-- `title`
-- `author`
+- **Title**
+- **Author**
 
-### 🛠 Method-lar:
-- `getTitle()` → `"Title: " + title`
-- `getAuthor()` → `"Author: " + author`
+and two methods:
 
----
-
-## 🧱 Talablar
-`Book` constructor’idan foydalanib quyidagi 3 ta obyekt yarating:
-
-| Kitob nomi           | Muallif              | Obyekt nomi |
-|----------------------|----------------------|--------------|
-| Pride and Prejudice  | Jane Austen          | `PP`         |
-| Hamlet               | William Shakespeare  | `H`          |
-| War and Peace        | Leo Tolstoy          | `WP`         |
+- A method named **getTitle()** that returns:  
+  `"Title: " + the instance title.`
+- A method named **getAuthor()** that returns:  
+  `"Author: " + the instance author.`
 
 ---
 
-## 💡 Misol
-Agar quyidagi kitob yaratilsa:
+## Task
+Instantiate this constructor by creating **3 new books**:
+
+| Title               | Author               | Variable Name |
+|---------------------|----------------------|----------------|
+| Pride and Prejudice | Jane Austen          | `PP`           |
+| Hamlet              | William Shakespeare  | `H`            |
+| War and Peace       | Leo Tolstoy          | `WP`           |
+
+The name of the new object instances are **PP**, **H**, and **WP**, respectively.
+
+---
+
+## Example
+If I instantiated the following book using this Book constructor function:
+
+**Harry Potter - J.K. Rowling (HP)**
+
+I would get the following properties and methods:
 
 ```js
-const HP = new Book("Harry Potter", "J.K. Rowling");
-U holda quyidagi natijalar olinadi:
-
-HP.title       ➞ "Harry Potter"
-HP.author      ➞ "J.K. Rowling"
-HP.getTitle()  ➞ "Title: Harry Potter"
+HP.title ➞ "Harry Potter"
+HP.author ➞ "J.K. Rowling"
+HP.getTitle() ➞ "Title: Harry Potter"
 HP.getAuthor() ➞ "Author: J.K. Rowling"
