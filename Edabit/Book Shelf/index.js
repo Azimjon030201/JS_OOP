@@ -1,14 +1,14 @@
-class Book{
-    constructor(title, author){
+class Book {
+    constructor(title, author) {
         this.title = title;
         this.author = author;
     }
-    getTitle(){
-        return `Title: ${this.title}`
-    }
-    getAuthor(){
-        return `Author: ${this.author}`
-    }
+    // getTitle() {
+    //     return `Title: ${this.title}`
+    // }
+    // getAuthor() {
+    //     return `Author: ${this.author}`
+    // }
 }
 
 let PP = new Book("Pride and Prejudice", "Jane Austen");
